@@ -1,0 +1,95 @@
+
+/*
+======================================================
+				START @MEDIA QUERIES							
+======================================================
+*/
+
+	/* MOBILE REPONSIVE */  
+
+@media screen and (max-width: 991px){
+  .navbar-collapse{
+    text-align: center;
+    background-color: rgba(34, 34, 34, 0.9);
+	}
+
+    .navbar-collapse .nav-item{
+      padding: 0 !important;
+  	}
+
+      .navbar-collapse .nav-item a{
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+  .fixed-top .navbar-collapse{
+    background-color: transparent;
+	}
+
+  .banner-capt h2{
+    font-size: 75px;
+	}
+
+  .banner-capt p{
+    font-size: 21px;
+	}
+
+  .hero-img:before{
+    display: none;
+	}
+	
+}
+
+@media screen and (max-width: 767px){
+  .banner-capt h2{
+    	font-size: 46px;
+	}
+
+  .banner-capt p {
+    	font-size: 17px;
+	}
+
+	.banner #home-svg {
+    	height: 80px;
+	}
+
+
+	.about-content {
+    	margin-top: 30px;
+	}
+
+
+	.mt-30{
+		margin-top: 30px !important;
+	}
+
+}
+
+@media screen and (max-width: 575px){
+	.pl-10{
+		padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.home-banner .banner-capt h2{
+		font-size: 35px !important;
+	}
+
+
+.home-banner .banner-capt p{
+    font-size: 16px !important;
+}
+
+	.pl-10{
+		padding-left: 10px;
+	}
+}
+
+
+/*
+======================================================
+				END @MEDIA QUERIES							
+======================================================
+*/
