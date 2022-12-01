@@ -1,10 +1,10 @@
 /*
 ====================================================
 
-    TEMPLATE NAME : Sheikh Portfolio Template;
-    AUTHOR : SATECH;
+    TEMPLATE NAME : Anis;
+    AUTHOR : Anis Sheikh;
     VERSION : 1.0;
-    COPYRIGHT : 2019.
+    COPYRIGHT : 2018.
 
 ====================================================
 /*
@@ -456,6 +456,7 @@ nav.fixed-top .nav-item .nav-link:before{
   	width: 100%;
   	-webkit-background-size: cover;
   	background-size: cover;
+	background-attachment: fixed;
   	background-repeat: no-repeat;
   	position: relative;
   	overflow: hidden;
@@ -711,12 +712,7 @@ nav.fixed-top .nav-item .nav-link:before{
 */
 
 .stats {
-	background-image: url('../images/review-bg.jpg');
-	background-repeat: no-repeat;
-  	background-position: center;
-	background-size: cover;
-  	-webkit-background-size: cover;
- 	background-attachment: fixed;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   	position: relative;
   	overflow: hidden;
 }
@@ -999,11 +995,7 @@ nav.fixed-top .nav-item .nav-link:before{
 */
 
 .testimonial{
-    background: url('../images/testimonial-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-	  background-position: center;
-  	background-attachment: fixed;
+    	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   	position: relative;
   	overflow: hidden;
 }
