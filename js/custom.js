@@ -100,7 +100,7 @@ $(function() {
                 "" == $(this).val() ? ($(this).addClass("con-error"), n += 1) : $(this).hasClass("con-error") && ($(this).removeClass("con-error"), n > 0 && (n -= 1))
             }), 0 === n ? $.ajax({
                 type: "POST",
-                url: "https://aniswd.github.io/anis/mail.php",
+                url: "mail.php",
                 data: {
                     con_name: o,
                     con_email: a,
